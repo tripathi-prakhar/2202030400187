@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cart.css">
+    <style>
+        .formdiv {
+            width: 100%;
+            height: 80%;
+            padding: 10px;
+        }
+
+        form {
+            margin: auto;
+            border: 1px solid grey;
+            width: 500px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .logoDiv {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+        }
+
+        .input {
+            padding: 10px;
+            width: 100%;
+            display: block;
+            border-radius: 5px;
+            border-color: gray;
+            border-width: 1px;
+        }
+
+        .inputdiv {
+            padding: 10px;
+        }
+
+        .cheakbox {
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+            width: 30%;
+        }
+
+        button {
+            padding: 10px 40px 10px 40px;
+            border: none;
+            border-radius: 10px;
+            background-color: #E231DB;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headermain">
+        <header>
+            <div class="icon">
+                <img src="./images/scroll.png" alt="">
+            </div>
+            <nav>
+                <ul class="navbar">
+                    <a class="li" href="./home.html">home</a>
+                    <li class="li">Category</li>
+                    <li class="li">products</li>
+                    <li class="li">pages</li>
+                    <li class="li">blogs</li>
+                    <a class="li" href="./contact.html">Contact</a>
+                </ul>
+            </nav>
+            <div class="contact">
+                <img src="./images/contact1.png" class="img" alt="">
+                <p>+911234567890</p>
+            </div>
+        </header>
+        <nav>
+            <div class="header">
+                <div style="height: 30px;">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div style="display: flex;">
+                    <input type="text"
+                        style="height: 30px; border-color: #E231DB; width: 300px; border-width: 1.5px; border-radius: 5px 0px 0px 5px;">
+                    <select name="" id="" style="height: 30px; border-color: #E231DB; width: 120px;">
+                        <option value="">All Categriese</option>
+                    </select>
+                    <div
+                        style="background-color: #E231DB; padding: 10px; height: 30px; border-radius: 0px 5px 5px 0px;">
+                        <img src="./images/Icon.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li style="display: flex;"> <img src="./images/account.png" alt="" style="">Account</li>
+                        <li style="display: flex;"><img src="./images/love.png" alt="">Wishlist</li>
+                        <a style="display: flex;" href="./cart.html"><img src="./images/cart.png" alt="">cart</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <div class="formdiv">
+            <form action="">
+                <div class="logoDiv">
+                    <img src="/images/logo.png" alt="">             
+                </div>
+                <h1>Get In Touch With Us</h1>
+                <p>For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!</p>
+                <div>
+                    <div class="inputdiv">
+                        <label for="">Email Address*</label>
+                        <input type="text" placeholder="enter your email" class="input">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="">Password*</label>
+                        <input type="text" placeholder="enter your Password" class="input">
+                    </div>
+                    <div class="inputdiv">
+                        <label for="">Message</label>
+                        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+                        <textarea  placeholder="enter your message" class="input" ></textarea>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                    <button>Subbmit</button>
+                    <a href="./register.html" style="color: gray; text-decoration: none;">Sign Up ?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
