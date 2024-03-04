@@ -1,0 +1,91 @@
+Task 1:
+
+1. Create a Git Repository:
+Open your terminal or command prompt and navigate to the directory where you want to create your repository.
+
+2. Create Folders:
+Inside your repository, create two folders named "assignment1" and "assignment2."
+
+3. Create a Word File:
+Create a Word file (e.g., "details.docx") with the necessary details. You can use a text editor or a word processing software for this.
+
+4. Add and Commit Changes:
+Add the folders and the Word file to the Git repository, and commit the changes.
+
+5. Create a Remote Repository:
+If you haven't already, create a remote repository on a platform like GitHub, GitLab, or Bitbucket.
+
+6. Link Local and Remote Repositories:
+Link your local repository to the remote repository.
+
+7. Push Changes:
+Push the changes to the remote repository.
+
+Certainly! Below is a template for a detailed document (in .docx format) that you can use to provide instructions for Task-1. Please customize it according to your specific needs:
+
+
+## Task-1: Creating a GIT Repository and Uploading Assignments
+
+### Step 1: Create a GIT Repository
+
+1. **Open your terminal or command prompt.**
+2. **Navigate to the directory where you want to create your repository.**
+
+   ```bash
+   git init <enrollment_number>
+   ```
+
+   Replace `<enrollment_number>` with your actual enrollment number.
+
+### Step 2: Create Assignment Folders
+
+1. **Navigate into your newly created repository.**
+
+   ```bash
+   cd <enrollment_number>
+   ```
+
+2. **Create two folders named Assignment_1 and Assignment_2.**
+
+   ```bash
+   mkdir Assignment_1 Assignment_2
+   ```
+
+### Step 3: Prepare Word Document
+
+1. **Open your preferred text editor or word processing software.**
+2. **Document each step of this task, including commands and explanations.**
+3. **Save the file as "Task_1_Instructions.docx" or any appropriate name.**
+
+### Step 4: Upload Assignments
+
+1. **Move or create your Assignment files into the respective folders.**
+
+   ```bash
+   mv /path/to/Assignment_1_files/* Assignment_1/
+   mv /path/to/Assignment_2_files/* Assignment_2/
+   ```
+
+### Step 5: GIT Commands
+
+1. **Add, commit, and push changes to your repository.**
+
+   ```bash
+   git add .
+   git commit -m "Initial commit - Adding Assignment files and instructions"
+   git remote add origin <repository_url>
+   git branch -M main
+   git push -u origin main
+   ```
+
+   Replace `<repository_url>` with the URL of your repository.
+
+### Step 6: Submission
+
+1. **Copy the URL of your repository.**
+2. **Open the Google Form provided for submission.**
+3. **Paste the repository URL in the specified field.**
+4. **Complete any additional information requested in the form.**
+
+
+
